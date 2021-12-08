@@ -1,3 +1,4 @@
 DEBUG = True
 LOG_LEVEL = 'DEBUG'
-FLASK_ENV = 'Development'
+SECRET_KEY = 'superninjasecretkeythatnoonenotevenaleethaxorcouldeverguesseverever'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///db.sqlite'

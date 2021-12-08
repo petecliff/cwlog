@@ -1,19 +1,10 @@
 {% extends "base.html" %}
-{% block title %}Home{% endblock %}
-{% block body %}
-<div class="jumbotron">
-  <h1>cwLog demo</h1>
-  <form method="POST">
-    <div><label>Add item: <input type="text" name="item"></label></div>
-    <input type="submit" name="action" value="Add">&nbsp;<input type="submit" name="action" value="Clear">
-  </form>
-</div>
-<hr />
-<div>
-    <ul>
-    {% for i in items %}
-    <li>{{ i['item'] }}</li>
-    {% endfor %}
-    </ul>
-</div>
+
+{% block content %}
+<h1 class="title">
+  Flask Login Example
+</h1>
+<h2 class="subtitle">
+  Easy authentication and authorization in Flask.
+</h2>
 {% endblock %}
